@@ -25,6 +25,7 @@ function getMainWindow(): Electron.BrowserWindow {
                 experimentalCanvasFeatures: true,
             },
             titleBarStyle: "hidden",
+            title: "Black Screen",
             resizable: true,
             minWidth: 500,
             minHeight: 300,
